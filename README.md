@@ -2,19 +2,18 @@
 
 ## Project Overview
 
-This scientific initiation project focuses on the use of the DE10-Standard FPGA as a platform for the acquisition and filtering of particle physics data from the SAMPA chip. The SAMPA chip is specifically designed for the readout of data from particle detectors and is used in high-energy physics experiments. By leveraging the programmable logic capabilities of the DE10-Standard FPGA, this project aims to create a real-time system that processes and filters the data from the SAMPA chip for further analysis.
+This scientific initiation project focuses on the use of the DE10-Standard FPGA as a platform for the acquisition and filtering of particle physics data from the SAMPA chip. The SAMPA chip is specifically designed for the readout of data from particle detectors and is used in high-energy physics experiments. This project aims to adapt a real-time system that processes and filters the data from the SAMPA chip created for the SoCKit FPGA board, witch is descontinued. The board chosen for this task is the DE10_Standard FPGA because of it similarities with de SoCKit board.
 
 ## Objectives
 
-- **Data Acquisition:** Develop an interface between the DE10-Standard FPGA and the SAMPA chip to capture real-time particle physics data.
-- **Data Filtering:** Implement signal processing algorithms on the FPGA to filter and clean the incoming data for more accurate analysis.
+- **Data Acquisition:** Adapt an interface between the SoCKit FPGA (discontinued board) and SAMPA chip to DE10-Standard FPGA and the SAMPA chip to capture real-time particle physics data.
 - **Linux-based Control System:** Utilize a Linux-based operating system for control and monitoring of the data acquisition process, running on the DE10-Standard's ARM processor.
 - **Project Files:** Provide the necessary FPGA programming files (`.jic`) and Linux system image files (`.iso`) for replication and testing of the project.
 
 ## Project Components
 
 - **FPGA Development Board:** The [DE10-Standard](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=1046) FPGA board from Terasic, equipped with an Intel Cyclone V SoC, serves as the main platform for this project.
-- **SAMPA Chip:** A specialized chip designed for data acquisition from particle detectors, used in experiments like ALICE at CERN. It enables high-rate data acquisition in particle physics experiments.
+- **SAMPA Chip:** A specialized chip designed for data acquisition from particle detectors, used in experiments like ALICE at CERN. It enables high-rate data acquisition in particle physics experiments, and developed in the University of São Paulo.
 - **Signal Processing Algorithms:** Filters are implemented using the FPGA logic to process incoming data from the SAMPA chip. These algorithms ensure that only the most relevant data is passed on for analysis.
 - **Linux Operating System:** The control and communication software for this project runs on a custom Linux distribution, configured for the DE10-Standard's ARM core. This system manages the acquisition pipeline and handles data transfer.
 
@@ -75,10 +74,7 @@ This project is open to contributions from the scientific community. If you'd li
 - Documentation enhancements
 - Bug fixes
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 
-This project is supported by the [Name of Supporting Institution] and contributes to ongoing research in particle physics data acquisition systems. Special thanks to the developers of the SAMPA chip and the ALICE experiment at CERN for their contributions to this field.
+This project is held by the University of São Paulo, more specifically by LSI-TEC and contributes to ongoing research in particle physics data acquisition systems. 
