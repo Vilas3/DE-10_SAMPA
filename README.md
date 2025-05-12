@@ -77,4 +77,4 @@ This project is open to contributions from the scientific community. If you'd li
 
 ## Acknowledgments
 
-This project is held by the University of São Paulo, more specifically by LSI-TEC and contributes to ongoing research in particle physics data acquisition systems. 
+This project is held by the University of São Paulo, more specifically by LSI and contributes to ongoing research in particle physics data acquisition systems. 
